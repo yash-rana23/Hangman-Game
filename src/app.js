@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
+import './App.css'
+import Hangman from './Hangman'
 
-class Coin extends React.Component {
+class App extends Component {
   render() {
-    return <div> </div>
+    return (
+      <div className='App'>
+        <Hangman />
+      </div>
+    )
   }
 }
 
-export default Coin
+export default App
