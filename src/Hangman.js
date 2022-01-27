@@ -90,7 +90,7 @@ class Hangman extends Component {
         <img
           className={this.state.Gameover || this.state.Gamewon ? 'image' : ''}
           src={this.props.images[this.state.nWrong]}
-          alt='The game Image'
+          alt='The game'
         />
         <h1 className={this.state.Gamewon ? 'won' : 'notwon'}>
           Congatulations! You Won the Game
